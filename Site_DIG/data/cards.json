@@ -1,0 +1,751 @@
+{
+  "prokaryote": {
+    "class": "root",
+    "title": "Prokaryote",
+    "description": "Prokaryote refers to any of the group of living organisms primarily characterized by the lack of a true nucleus and other membrane-bound organelles, such as mitochondria and chloroplasts, and by the possession of a single loop of stable chromosomal <a class=\"root_link\" data-id=\"dna\"> DNA</a> in the nucleoid region and cytoplasmic structures, such as plasma membrane, vacuoles, primitive cytoskeleton, and ribosomes. Examples of prokaryotees are bacteria and archaea.",
+    "image": {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/c/c5/Prokaryote_cell.svg",
+      "alt": "Prokaryote Cell Diagram",
+      "width": 400
+    },
+    "links": [
+      {
+        "url": "https://www.biologyonline.com/dictionary/prokaryote",
+        "label": "Dictionary: Prokaryote"
+      }
+    ],
+    "associated": ["cell-structure", "genetic-code", "central-dogma", "domains", "cellular-metabolism", "dna", "rna","mutations","transcription-translation","microbiomes"],
+    "associated_names": [
+        "Cell Structure", "Genetic Code", "Central Dogma of Molecular Biology",
+        "Domains", "Cellular Metabolism", "RNA", "DNA", "Transcription and Translation",
+        "Mutations", "Microbiomes"
+    ],
+    "tag": "img/prokaryote.svg"
+    },
+  "eukaryote": {
+    "class": "root",
+    "title": "Eukaryote",
+    "description": "Eukaryotes are organisms whose cells have a true nucleus enclosed within membranes, along with other membrane-bound organelles such as <a class=\"root_link\" data-id=\"mitochondrion\">mitochondria</a>, <a class=\"root_link\" data-id=\"chloroplast\">chloroplasts</a> (in plants and algae), and an extensive <a class=\"root_link\" data-id=\"cytoskeleton\">cytoskeleton</a>. Eukaryotic cells are generally larger and more complex than prokaryotic cells. They include all animal, plant, fungal, and protist species.",
+    "image": {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Animal_Cell.svg/1920px-Animal_Cell.svg.png",
+      "alt": "Diagram of a Eukaryotic (Animal) Cell",
+      "width": 400
+    },
+    "links": [
+      {
+        "url": "https://www.biologyonline.com/dictionary/eukaryote",
+        "label": "Dictionary: Eukaryote"
+      }
+    ],
+    "associated": ["cell-structure", "genetic-code", "central-dogma", "domains", "cellular-metabolism", "dna", "rna", "organelles", "transcription-translation", "evolution"],
+    "associated_names": [
+      "Cell Structure", "Genetic Code", "Central Dogma of Molecular Biology",
+      "Domains", "Cellular Metabolism", "DNA", "RNA", "Organelles",
+      "Transcription and Translation", "Evolution"
+    ],
+    "tag": "img/eukaryote.svg"
+  },
+    "chromosome": {
+    "class": "root",
+    "title": "Chromosome",
+    "description": "Chromosomes are thread-like structures made of protein and a single long molecule of DNA, which carry genetic information in the cell.",
+    "image": {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/5/59/Helix-Pyruvat.png",
+      "alt": "Diagram representing DNA within a chromosome",
+      "width": 600
+    },
+    "links": [
+      {
+        "url": "https://www.genome.gov/genetics-glossary/Chromosome",
+        "label": "Genome.gov: Chromosome"
+      }
+    ],
+    "associated": ["dna", "nucleus"],
+    "associated_names": ["DNA", "Nucleus"],
+    "tag": "img/both.svg"
+  },
+  "nucleus": {
+    "class": "root",
+    "title": "Nucleus",
+    "description": "The nucleus is a membrane-enclosed organelle found in eukaryotic cells that contains the cell’s chromosomes.",
+    "image": {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/5/5b/Simple_diagram_of_plant_cell_(en).svg.png",
+      "alt": "Diagram of a plant cell highlighting the nucleus",
+      "width": 768
+    },
+    "links": [
+      {
+        "url": "https://www.genome.gov/genetics-glossary/Nucleus",
+        "label": "Genome.gov: Nucleus"
+      }
+    ],
+    "associated": ["chromosome", "nucleolus", "dna"],
+    "associated_names": ["Chromosome", "Nucleolus", "DNA"],
+    "tag": "img/eukaryote.svg"
+  },
+  "nucleolus": {
+    "class": "root",
+    "title": "Nucleolus",
+    "description": "The nucleolus is a spherical structure within the nucleus, responsible for producing and assembling ribosomes.",
+    "image": {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/5/5b/Simple_diagram_of_plant_cell_(en).svg.png",
+      "alt": "Diagram of a plant cell highlighting the nucleus (nucleolus region)",
+      "width": 768
+    },
+    "links": [
+      {
+        "url": "https://www.genome.gov/genetics-glossary/Nucleolus",
+        "label": "Genome.gov: Nucleolus"
+      }
+    ],
+    "associated": ["nucleus", "ribosome"],
+    "associated_names": ["Nucleus", "Ribosome"],
+    "tag": "img/eukaryote.svg"
+  },
+  "cytoplasm":{
+      "title": "Cytoplasm",
+      "class": "root",
+      "definition": "The cytoplasm is the thick, gel-like fluid inside cells (bounded by the cell membrane) that contains water, salts, proteins, and all organelles in eukaryotic cells.",
+      "url": "https://www.nature.com/scitable/definition/cytoplasm-280/",
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/5/5b/Simple_diagram_of_plant_cell_(en).svg.png",
+        "alt": "Diagram of a plant cell showing the cytoplasm region",
+        "width": 768
+      },
+      "tag": "img/both.svg",
+      "associated": ["cell_membrane", "nucleus"]
+    },
+    "cell_membrane":{
+      "title": "Cell Membrane",
+      "class": "structure",
+      "definition": "The cell membrane, also called the plasma membrane, is a semipermeable lipid bilayer that surrounds all cells and regulates the passage of substances into and out of the cell.",
+      "url": "https://www.genome.gov/genetics-glossary/Cell-Membrane-Plasma-Membrane",
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/d/da/Cell_membrane_detailed_diagram_en.svg.png",
+        "alt": "Detailed diagram of the cell membrane lipid bilayer",
+        "width": 768
+      },
+      "tag": "img/both.svg",
+      "associated": ["cell_wall", "cytoplasm"]
+    },
+    "cell_wall":{
+      "title": "Cell Wall",
+      "class": "root",
+      "definition": "The cell wall is a rigid layer surrounding plant, fungal, and bacterial cells; in plants it is made of cellulose. It provides structural support, protection, and a medium for water and nutrient movement.",
+      "url": "https://www.britannica.com/science/cell-wall-plant-anatomy",
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Plant_cell_wall_diagram-id.svg/2560px-Plant_cell_wall_diagram-id.svg.png",
+        "alt": "Diagram of plant cell wall structure showing cellulose microfibrils",
+        "width": 768
+      },
+      "tag": "img/both.svg",
+      "associated": ["cell_membrane"]
+    },
+    "mitochondrion":{
+      "title": "Mitochondrion",
+      "class": "root",
+      "definition": "Mitochondria are membrane-bound organelles in eukaryotic cells that generate most of the chemical energy (ATP) used by the cell.",
+      "url": "https://www.genome.gov/genetics-glossary/Mitochondria",
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/3/3b/Animal_mitochondrion_diagram_en.svg.png",
+        "alt": "Cross-sectional diagram of a mitochondrion showing inner membranes (cristae)",
+        "width": 768
+      },
+      "tag": "img/eukaryote.svg",
+      "associated": ["cytoplasm", "nucleus"]
+    },
+    "chloroplast": {
+      "title": "Chloroplast",
+      "class": "root",
+      "definition": "A chloroplast is an organelle in plant and algal cells that is the site of photosynthesis, containing chlorophyll to capture light energy.",
+      "url": "https://www.britannica.com/science/chloroplast",
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Chloroplast.svg/1024px-Chloroplast.svg.png",
+        "alt": "Labeled diagram of a chloroplast ultrastructure",
+        "width": 768
+      },
+      "tag": "img/eukaryote.svg",
+      "associated": ["cytoplasm"]
+    },
+    "ribosome":{
+      "title": "Ribosome",
+      "class": "root",
+      "definition": "A ribosome is an intracellular complex of RNA and protein that serves as the site of protein synthesis, translating mRNA into proteins.",
+      "url": "https://www.genome.gov/genetics-glossary/Ribosome",
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/3/33/Ribosome_structure_including_subunits_and_binding_sites.png",
+        "alt": "Diagram of a ribosome with mRNA and tRNA, showing A and P sites",
+        "width": 600
+      },
+      "tag": "img/both.svg",
+      "associated": ["nucleolus", "cytoplasm"]
+    },
+    "cytoskeleton":{
+      "title": "Cytoskeleton",
+      "class": "structure",
+      "definition": "The cytoskeleton is a network of protein filaments (such as actin filaments and microtubules) that extends throughout the cytoplasm and gives cells structural support, shape, and organization.",
+      "url": "https://www.nature.com/scitable/definition/cytoplasm-280/",
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/7/7e/Cytoskeleton.jpg",
+        "alt": "Fluorescence image of cells highlighting cytoskeleton filaments (actin in red, microtubules in green)",
+        "width": 800
+      },
+      "tag": "img/both.svg",
+      "associated": ["cytoplasm"]
+    },
+    "flagellum":{
+      "title": "Flagellum",
+      "class": "root",
+      "definition": "A flagellum is a long, whip-like cellular appendage that propels the cell through fluid; for example, many bacteria have rotating helical flagella that allow them to swim.",
+      "url": "https://commons.wikimedia.org/wiki/File:Flagellum_base_diagram-en.svg",
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Flagellum_base_diagram-en.svg/1024px-Flagellum_base_diagram-en.svg.png",
+        "alt": "Structure of a Gram-negative bacterial flagellum and basal body",
+        "width": 768
+      },
+      "tag": "img/both.svg",
+      "associated": ["cell_membrane"]
+    },
+    "plasmid":{
+      "title": "Plasmid",
+      "class": "root",
+      "definition": "A plasmid is a small circular DNA molecule found in bacteria and some eukaryotic cells that is separate from the chromosomal DNA. Plasmids replicate independently and often carry genes, such as those for antibiotic resistance.",
+      "url": "https://www.genome.gov/genetics-glossary/Plasmid",
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Plasmid_(english).svg/2560px-Plasmid_(english).svg.png",
+        "alt": "Illustration of a bacterium showing chromosomal DNA and multiple plasmids",
+        "width": 768
+      },
+      "tag": "img/prokaryote.svg",
+      "associated": ["dna"]
+    },
+    "nucleic-acids": {
+    "class": "root",
+    "title": "Nucleic Acids",
+    "description": "A nucleic acid refers to any of the group of complex compounds consisting of chains of monomers of nucleotides. Each monomeric unit is composed of phosphate group, sugar, and nitrogenous base. Nucleic acids are involved in the preservation, replication, and expression of hereditary information in every living cell.",
+    "image": {"src": "https://upload.wikimedia.org/wikipedia/commons/a/a8/NucleicAcid.svg", "alt": ""},
+    "links": [{
+      "url": "https://www.biologyonline.com/dictionary/nucleic-acid",
+      "label": "Dictionary: Nucleic Acid"
+    }],
+    "associated": ["dna", "rna", "genetic-code", "central-dogma", "transcription-translation", "mutations", "genetic-expression"],
+    "associated_names": ["DNA", "RNA", "Genetic Code", "Central Dogma of Molecular Biology", "Transcription and Translation", "Mutations", "Genetic Expression"],
+    "tag": "img/both.svg"
+  },
+  "cell-structure": {
+    "class": "root",
+    "title": "Cell Structure",
+    "description": "The interior of human cells is divided into the nucleus and the cytoplasm. The nucleus is a spherical or oval-shaped structure at the center of the cell. The cytoplasm is the region outside the nucleus that contains cell organelles and cytosol, or cytoplasmic solution. Intracellular fluid is collectively the cytosol and the fluid inside the organelles and the cell nucleus.",
+    "image": {"src": "https://upload.wikimedia.org/wikipedia/commons/1/11/Cell_structure.png", "alt": ""},
+    "links": [{
+      "url": "https://www.biologyonline.com/tutorials/cell-structure",
+      "label": "Dictionary: Cell Structure"
+    }],
+    "associated": ["prokaryote", "domains", "cellular-metabolism", "mitosis","meiosis", "cell-cycle", "oxidative-phosphorylation", "glycolysis-krebs"],
+    "associated_names": ["Prokaryotes", "Domains", "Cellular Metabolism", "Mitosis","Meiosis", "Cell Cycle", "Oxidative Phosphorylation", "Glycolysis and Krebs Cycle"],
+    "tag": "img/both.svg"
+  },
+  "evolution": {
+    "class": "root",
+    "title": "Evolution",
+    "description": "Evolution is defined as a change in the genetic composition of a population over successive generations. When we hear “evolution”, we often think of a progressive change. However, evolutionary changes are not directed toward perfection or even toward some defined goal.",
+    "image": {"src": "https://upload.wikimedia.org/wikipedia/commons/0/0f/DarwinsfinchesEvolution.png", "alt": ""},
+    "links": [{
+      "url": "https://www.biologyonline.com/dictionary/evolution",
+      "label": "Dictionary: Evolution"
+    }],
+    "associated": ["mutations", "genetic-recombination", "epigenetics", "molecular-biology", "microbiomes", "evolutionary-trees"],
+    "associated_names": ["Mutations", "Genetic Recombination", "Epigenetics", "Molecular Biology (umbrella concept)", "Microbiomes", "Evolutionary Trees (Phylogenetics)"],
+    "tag": "img/both.svg"
+  },
+  "central-dogma": {
+    "class": "root",
+    "title": "Central Dogma of Molecular Biology",
+    "description": "You probably already heard the concepts of translation in the central dogma of molecular biology. The dogma is an elucidation as to how a protein is born based on what the DNA holds. Based on it, the scheme begins at the DNA molecule being transcribed into RNA in a process called transcription, which is then followed by the RNA making a protein in a process called translation.",
+    "image": {"src": "https://upload.wikimedia.org/wikipedia/commons/3/3a/Crick%27s_1958_central_dogma.svg", "alt": ""},
+    "links": [{
+      "url": "https://www.biologyonline.com/articles/a-protein-being-born-a-live-cell-imaging-of-rna-translation",
+      "label": "Article A Protein Being Born – a live cell imaging of RNA translation"
+    }],
+    "associated": ["dna", "rna", "transcription-translation", "genetic-code", "mutations"],
+    "associated_names": ["DNA", "RNA", "Transcription and Translation", "Genetic Code", "Mutations"],
+    "tag": "img/both.svg"
+  },
+
+
+  "genetic-expression": {
+  "class": "trunk",
+  "title": "Genetic Expression",
+  "description": "Gene expression is the process by which the information encoded in a gene is turned into a function. This mostly occurs via the transcription of RNA molecules that code for proteins or non-coding RNA molecules that serve other functions. Gene expression be thought of as an “on/off switch” to control when and where RNA molecules and proteins are made and as a “volume control” to determine how much of those products are made. The process of gene expression is carefully regulated, changing substantially under different conditions and cell types. The RNA and protein products of many genes serve to regulate the expression of other genes. Where, when, and how much a gene is expressed can also assessed by measuring the functional activity of a gene product or observing a phenotype associated with a gene.",
+  "image": {"src": "https://upload.wikimedia.org/wikipedia/commons/e/e6/Regulation_of_gene_expression_by_steroid_hormone_receptor.svg", "alt": ""},
+  "links": [{
+    "url": "https://www.genome.gov/genetics-glossary/Gene-Expression?utm_source=chatgpt.com",
+    "label": "Glossary Gene expression"
+  }],
+  "associated": ["dna", "rna", "transcription-translation", "gene-regulation", "central-dogma"],
+  "associated_names": ["DNA", "RNA", "Transcription and Translation", "Gene Regulation", "Central Dogma of Molecular Biology"],
+  "tag": ""
+},
+"mitosis": {
+  "class": "trunk",
+  "title": "Mitosis",
+  "description": "In biology, mitosis refers to the cellular process where a single cell divides resulting in two identical cells. By identical, it means that both cells have the same number of chromosomes and genetic content. The mitosis steps include preprophase (in plant cells), prophase, prometaphase, metaphase, anaphase, and telophase. At which point each phase begins or ends is not clear as these phases apparently overlap. However, each of them is marked by distinctive events.",
+  "image": {"src": "https://upload.wikimedia.org/wikipedia/commons/c/c9/Mitosis_Stages.svg", "alt": ""},
+  "links": [{
+    "url": "https://www.biologyonline.com/dictionary/mitosis",
+    "label": "Dictionary Mitosis"
+  }],
+  "associated": ["cell-cycle", "embryology-development", "cell-structure", "domains"],
+  "associated_names": ["Cell Cycle", "Embryology and Development", "Cell Structure", "Domains"],
+  "tag": "img/both.svg"
+},
+"meiosis": {
+  "class": "trunk",
+  "title": "Meiosis",
+  "description": "A simple definition of meiosis would be is this: meiosis is the process of cell division that results in the production of a haploid  “daughter” cell with a haploid chromosomal number of a diploid “parent” (“original”) cell. The resulting haploid cell after meiosis would have only one part of the various homologous chromosome pairs of the parent cell.",
+  "image": {"src": "https://upload.wikimedia.org/wikipedia/commons/7/74/Meiosis_Stages.svg", "alt": ""},
+  "links": [{
+    "url": "https://www.biologyonline.com/dictionary/meiosis",
+    "label": "Dictionary Meiosis"
+  }],
+  "associated": ["cell-cycle", "embryology-development", "cell-structure", "domains"],
+  "associated_names": ["Cell Cycle", "Embryology and Development", "Cell Structure", "Domains"],
+  "tag": "img/both.svg"
+},
+"domains": {
+  "class": "trunk",
+  "title": "Domains",
+  "description": "In biological taxonomy, a domain is the highest order of life classification, even higher than a Kingdom. Carl Woese introduced a three-domain system of classification in 1990 where organisms are divided into three domains: Archaea, Bacteria and Eukarya. Both the Domain Bacteria and Domain Archaea include prokaryotic organisms whereas the Domain Eukarya includes all eukaryotic organisms.",
+  "image": {"src": "https://upload.wikimedia.org/wikipedia/commons/3/3e/3_domains_of_life.png", "alt": ""},
+  "links": [{
+    "url": "https://www.biologyonline.com/dictionary/domain?utm_source=chatgpt.com",
+    "label": "Dictionary Domains"
+  }],
+  "associated": ["prokaryote", "cell-structure", "mitosis","meiosis", "evolution"],
+  "associated_names": ["Prokaryotes", "Cell Structure", "Mitosis","Meiosis", "Evolution"],
+  "tag": "img/both.svg"
+},
+"embryology-development": {
+  "class": "trunk",
+  "title": "Embryology and Development",
+  "description": "Embryology is a branch of biology that deals with the topics concerning gamete formation (gametogenesis), a fusion of gametes (fertilization), and embryo formation (embryogenesis). By definition, embryology encompasses the growth of both plant and animal embryos. But in a more general sense, we study animal or human embryology when referring to a medical sense.",
+  "image": {"src": "https://upload.wikimedia.org/wikipedia/commons/c/c9/Da_Vinci_Studies_of_Embryos_Luc_Viatour.jpg", "alt": ""},
+  "links": [{
+    "url": "https://www.biologyonline.com/dictionary/embryology",
+    "label": "Glossary Embriology"
+  }],
+  "associated": ["mitosis","meiosis", "cell-cycle"],
+  "associated_names": ["Mitosis","Meiosis", "Cell Cycle"],
+  "tag": "img/eukaryote.svg"
+},
+"cell-cycle": {
+  "class": "trunk",
+  "title": "Cell Cycle",
+  "description": "Cell cycle pertains to the sequence of growth and division of a cell. In essence, the cell cycle involves the duplication of <a class=\"root_link\" data-id=\"dna\"> DNA</a> via DNA replication and this leads to the division of the parent cell, yielding two daughter cells. These processes are essential for cell growth, replication, and division.",
+  "image": {"src": "", "alt": ""},
+  "links": [{
+    "url": "https://www.biologyonline.com/dictionary/cell-cycle",
+    "label": "Dictionary cell cycle"
+  }],
+  "associated": ["mitosis","meiosis", "embryology-development", "cell-structure"],
+  "associated_names": ["Mitosis","Meiosis", "Embryology and Development", "Cell Structure"],
+  "tag": ""
+},
+"rna": {
+  "class": "trunk",
+  "title": "RNA",
+  "description": "A nucleic acid that is frequently single-stranded and folded onto itself, and composed of repeating nucleotide units of ribose sugar, phosphate group, and nitrogenous base.",
+  "image": {"src": "https://upload.wikimedia.org/wikipedia/commons/1/10/Double-stranded_RNA.gif", "alt": ""},
+  "links": [{
+    "url": "https://www.biologyonline.com/dictionary/ribonucleic-acid",
+    "label": "Dictionary RNA"
+  }],
+  "associated": ["dna", "central-dogma", "genetic-code", "transcription-translation", "genetic-expression"],
+  "associated_names": ["DNA", "Central Dogma of Molecular Biology", "Genetic Code", "Transcription and Translation", "Genetic Expression"],
+  "tag": "img/both.svg"
+},
+"transcription-translation": {
+  "class": "trunk",
+  "title": "Transcription and Translation",
+  "description": "In biology, transcription is the process of transcribing or making a copy of the genetic information stored in a DNA strand into a complementary strand of RNA (messenger RNA or mRNA) with the aid of RNA polymerases. In prokaryotes, the process occurs in the cytoplasm. In eukaryotes, it takes place inside the nucleus. In biology, translation is a step in protein biosynthesis where a genetic code from a strand of mRNA is decoded to produce a particular sequence of amino acids.",
+  "image": {"src": "https://upload.wikimedia.org/wikipedia/commons/a/ad/Transcription_and_Translation.png", "alt": ""},
+  "links": [{
+    "url": "https://www.biologyonline.com/dictionary/translation-biology",
+    "label": "Glossary Translation"
+  },{
+    "url": "https://www.biologyonline.com/dictionary/transcription-biology",
+    "label": "Glossary Transcription"
+  }],
+  "associated": ["dna", "rna", "central-dogma", "genetic-code", "gene-regulation"],
+  "associated_names": ["DNA", "RNA", "Central Dogma of Molecular Biology", "Genetic Code", "Gene Regulation"],
+  "tag": "img/both.svg"
+},
+"dna": {
+  "class": "trunk",
+  "title": "DNA",
+  "description": "A nucleic acid refers to any of the group of complex compounds made up of linear chains of monomeric nucleotides. Each nucleotide component, in turn, is made up of phosphate group, sugar, and a nitrogenous base. Nucleic acids are involved in the preservation, replication, and expression of hereditary information. Two major types of nucleic acids are deoxyribonucleic acid (DNA) and ribonucleic acid (RNA).",
+  "image": {"src": "https://upload.wikimedia.org/wikipedia/commons/1/16/DNA_orbit_animated.gif", "alt": ""},
+  "links": [{
+    "url": "https://www.biologyonline.com/dictionary/deoxyribonucleic-acid",
+    "label": "Glossary DNA"
+  }],
+  "associated": ["rna", "central-dogma", "genetic-code", "transcription-translation", "genetic-expression"],
+  "associated_names": ["RNA", "Central Dogma of Molecular Biology", "Genetic Code", "Transcription and Translation", "Genetic Expression"],
+  "tag": "img/both.svg"
+},
+"gene-regulation": {
+  "class": "trunk",
+  "title": "Gene Regulation",
+  "description": "In prokaryotes the DNA is located in the cytoplasm, so that translation may begin even before transcription has been completed. Because of that, most gene regulation occurs at the level of transcription in prokaryotes. However, in eukaryotes, the DNA is separated from the cytoplasm by the nuclear envelope, so the mRNA has to find its way to the ribosomes from the nucleus. Gene activity can, therefore, be regulated at either transcription or translation, or even post-translation by modification of the translated protein. Another difference is that eukaryotic genes are not clustered into operons controlled from a single promoter. Most genes encode only a single protein, and each gene has its own promoter.",
+  "image": {"src": "https://upload.wikimedia.org/wikipedia/commons/9/9d/Gene_Regulation.svg", "alt": ""},
+  "links": [{
+    "url": "https://www.biologyonline.com/tutorials/gene-regulation-in-eukaryotes",
+    "label": "Glossary Gene regulation"
+  }],
+  "associated": ["transcription-translation", "genetic-expression", "epigenetics"],
+  "associated_names": ["Transcription and Translation", "Genetic Expression", "Epigenetics"],
+  "tag": "img/eukaryote.svg"
+},
+"oxidative-phosphorylation": {
+  "class": "trunk",
+  "title": "Oxidative Phosphorylation",
+  "description": "A metabolic pathway that generates ATP from ADP through phosphorylation that derives the energy from the oxidation of nutrients",
+  "image": {"src": "https://upload.wikimedia.org/wikipedia/commons/8/81/Oxidative_phosphorylation.png", "alt": ""},
+  "links": [{
+    "url": "https://www.biologyonline.com/dictionary/oxidative-phosphorylation",
+    "label": "Glossary Gene expression"
+  }],
+  "associated": ["cellular-metabolism", "glycolysis-krebs"],
+  "associated_names": ["Cellular Metabolism", "Glycolysis and Krebs Cycle"],
+  "tag": "img/both.svg"
+},
+"glycolysis-krebs": {
+  "class": "trunk",
+  "title": "Glycolysis and Krebs Cycle",
+  "description": "Glycolysis is a metabolic pathway by which the 6-carbon molecule of glucose is broken down into a 3-C molecule called pyruvate in a series of complex oxidizing biochemical reactions. Krebs cycle, also known as the citric acid cycle or tricarboxylic acid (TCA) cycle, is a fundamental metabolic pathway that occurs in the mitochondria of eukaryotic cells and the cytoplasm of prokaryotic cells.",
+  "image": {"src": "https://upload.wikimedia.org/wikipedia/commons/b/b5/Net_reactions_for_glycolysis_of_glucose%2C_oxidative_decarboxylation_of_pyruvate%2C_and_Krebs_cycle..png", "alt": ""},
+  "links": [{
+    "url": "https://www.biologyonline.com/dictionary/glycolysis",
+    "label": "Glossary Glycolysis"
+  },
+  {
+    "url": "https://www.biologyonline.com/dictionary/krebs-cycle",
+    "label": "Glossary Krebs"
+  }],
+  "associated": ["oxidative-phosphorylation", "cellular-metabolism"],
+  "associated_names": ["Oxidative Phosphorylation", "Cellular Metabolism"],
+  "tag": ""
+},
+  "genetic-recombination": {
+    "class": "branch",
+    "title": "Genetic Recombination",
+    "description": "Genetic recombination is a natural biological process where DNA strands are broken and rejoined to produce new combinations of genetic material. This contributes to genetic diversity in populations and is essential for evolution and proper chromosome segregation during meiosis.",
+    "image": {"src": "https://upload.wikimedia.org/wikipedia/commons/6/6d/Homologous_Recombination.jpg", "alt": ""},
+    "links": [{
+      "url": "https://www.genome.gov/genetics-glossary/Genetic-Recombination",
+      "label": "Genetics Home Reference: Genetic Recombination"
+    }],
+    "associated": ["mutations", "evolution", "molecular-biology"],
+    "associated_names": ["Mutations", "Evolution", "Molecular Biology (umbrella concept)"],
+    "tag": "img/eukaryote.svg"
+  },
+  "epigenetics": {
+    "class": "branch",
+    "title": "Epigenetics",
+    "description": "Epigenetics studies heritable changes in gene expression that do not involve alterations to the underlying DNA sequence. Mechanisms include DNA methylation, histone modification, and RNA-associated silencing, which regulate gene activity and can be influenced by environmental factors.",
+    "image": {"src": "https://upload.wikimedia.org/wikipedia/commons/3/3b/Epigenetic_priming_in_Cancer.png", "alt": ""},
+    "links": [{
+      "url": "https://www.nature.com/subjects/epigenetics",
+      "label": "Nature: Epigenetics"
+    }],
+    "associated": ["gene-regulation", "molecular-biology", "genetic-recombination"],
+    "associated_names": ["Gene Regulation", "Molecular Biology (umbrella concept)", "Genetic Recombination"],
+    "tag": "img/eukaryote.svg"
+  },
+  "crispr": {
+    "class": "branch",
+    "title": "CRISPR",
+    "description": "CRISPR (Clustered Regularly Interspaced Short Palindromic Repeats) is a gene-editing technology derived from bacterial immune systems. It allows precise modification of DNA sequences in living organisms and has revolutionized genetic engineering and therapy research.",
+    "image": {"src": "https://upload.wikimedia.org/wikipedia/commons/0/03/Ype-I_CRISPR_RNA.png", "alt": ""},
+    "links": [{
+      "url": "https://www.biologyonline.com/articles/crispr-diy-biohacking-genes-at-home",
+      "label": "Article: CRISPR Technology"
+    }],
+    "associated": ["genetic-recombination", "molecular-biology", "mutations"],
+    "associated_names": ["Genetic Recombination", "Molecular Biology (umbrella concept)", "Mutations"],
+    "tag": "img/eukaryote.svg"
+  },
+  "cloning": {
+    "class": "branch",
+    "title": "Cloning",
+    "description": "Cloning refers to creating genetically identical copies of biological material, such as genes, cells, or entire organisms. Techniques include molecular cloning of DNA and reproductive cloning, which raises ethical and biological questions.",
+    "image": {"src": "https://upload.wikimedia.org/wikipedia/commons/e/ec/Cloning_diagram_english.svg", "alt": ""},
+    "links": [{
+      "url": "https://www.genome.gov/genetics-glossary/Cloning",
+      "label": "Genetics Home Reference: Cloning"
+    }],
+    "associated": ["molecular-biology", "genetic-expression"],
+    "associated_names": ["Molecular Biology (umbrella concept)", "Genetic Expression"],
+    "tag": ""
+  },
+  "bioinformatics": {
+    "class": "branch",
+    "title": "Bioinformatics",
+    "description": "Bioinformatics combines biology, computer science, and statistics to analyze and interpret biological data, especially genetic sequences. It supports research in genomics, proteomics, and molecular biology through software tools and databases.",
+    "image": {"src": "", "alt": ""},
+    "links": [{
+      "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3495300/",
+      "label": "NCBI: Introduction to Bioinformatics"
+    }],
+    "associated": ["molecular-biology", "genetic-recombination"],
+    "associated_names": ["Molecular Biology (umbrella concept)", "Genetic Recombination"],
+    "tag": ""
+  },
+  "genetic-therapy": {
+    "class": "branch",
+    "title": "Genetic Therapy",
+    "description": "Genetic therapy (gene therapy) involves modifying or manipulating genes to treat or prevent diseases. Techniques include replacing faulty genes, inactivating malfunctioning ones, or introducing new genes to improve health outcomes.",
+    "image": {"src": "https://upload.wikimedia.org/wikipedia/commons/3/3d/Gene_therapy.jpg", "alt": ""},
+    "links": [{
+      "url": "https://ghr.nlm.nih.gov/primer/therapy/genetherapy",
+      "label": "Genetics Home Reference: Gene Therapy"
+    }],
+    "associated": ["molecular-biology", "crispr"],
+    "associated_names": ["Molecular Biology (umbrella concept)", "CRISPR"],
+    "tag": ""
+  },
+  "mendelian-genetics": {
+    "class": "branch",
+    "title": "Mendelian Genetics",
+    "description": "Mendelian genetics studies the inheritance of traits based on Gregor Mendel's laws of segregation and independent assortment, describing how alleles segregate and combine in offspring according to predictable ratios.",
+    "image": {"src": "", "alt": ""},
+    "links": [{
+      "url": "https://www.genome.gov/genetics-glossary/Mendelian-Inheritance",
+      "label": "Genetics Home Reference: Mendelian Inheritance"
+    }],
+    "associated": ["mutations", "genetic-recombination"],
+    "associated_names": ["Mutations", "Genetic Recombination"],
+    "tag": ""
+  },
+  "mutations": {
+    "class": "branch",
+    "title": "Mutations",
+    "description": "Mutations are changes in the DNA sequence that can affect gene function and lead to genetic diversity or diseases. They can be caused by errors in replication, environmental factors, or inherited.",
+    "image": {"src": "https://upload.wikimedia.org/wikipedia/commons/a/a3/Simple_Example_for_Accumulation_of_Genetic_Mutations.png", "alt": ""},
+    "links": [{
+      "url": "https://www.genome.gov/genetics-glossary/Mutation",
+      "label": "Genetics Home Reference: Mutation"
+    }],
+    "associated": ["genetic-recombination", "mendelian-genetics"],
+    "associated_names": ["Genetic Recombination", "Mendelian Genetics"],
+    "tag": ""
+  },
+  "recombinant-dna-technology": {
+    "class": "branch",
+    "title": "Recombinant DNA Technology",
+    "description": "Recombinant DNA technology involves combining DNA from different organisms to create new genetic combinations with desirable traits. It underpins genetic engineering, cloning, and biotechnology.",
+    "image": {"src": "https://upload.wikimedia.org/wikipedia/commons/4/49/Recombinant_DNA_Molecule.png", "alt": ""},
+    "links": [{
+      "url": "https://www.genome.gov/genetics-glossary/Recombinant-DNA-Technology",
+      "label": "Genetics Home Reference: Recombinant DNA Technology"
+    }],
+    "associated": ["molecular-biology", "cloning"],
+    "associated_names": ["Molecular Biology (umbrella concept)", "Cloning"],
+    "tag": ""
+  },
+  "molecular-biology": {
+    "class": "branch",
+    "title": "Molecular Biology (umbrella concept)",
+    "description": "Molecular biology studies biological processes at the molecular level, focusing on the interactions between DNA, RNA, proteins, and their regulation. It bridges genetics, biochemistry, and cell biology.",
+    "image": {"src": "", "alt": ""},
+    "links": [{
+      "url": "https://www.nature.com/subjects/molecular-biology",
+      "label": "Nature: Molecular Biology"
+    }],
+    "associated": ["genetic-expression", "gene-regulation", "transcription-translation"],
+    "associated_names": ["Genetic Expression", "Gene Regulation", "Transcription and Translation"],
+    "tag": ""
+  },
+  "enzyme-activity": {
+    "class": "branch",
+    "title": "Enzyme Activity",
+    "description": "Enzyme activity refers to the rate at which enzymes catalyze biochemical reactions. It is influenced by factors like substrate concentration, temperature, pH, and inhibitors, and is fundamental for cellular metabolism.",
+    "image": {"src": "https://upload.wikimedia.org/wikipedia/commons/f/fa/Coupled_assay_tr.png", "alt": ""},
+    "links": [{
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK22387/",
+      "label": "NCBI Bookshelf: Enzyme Activity"
+    }],
+    "associated": ["cellular-metabolism", "molecular-biology"],
+    "associated_names": ["Cellular Metabolism", "Molecular Biology (umbrella concept)"],
+    "tag": ""
+  },
+  "cellular-signaling": {
+    "class": "branch",
+    "title": "Cellular Signaling",
+    "description": "Cellular signaling encompasses the processes by which cells communicate and respond to external and internal signals via receptors, second messengers, and signaling pathways. It controls growth, differentiation, and homeostasis.",
+    "image": {"src": "", "alt": ""},
+    "links": [{
+      "url": "https://www.nature.com/subjects/cell-signaling",
+      "label": "Nature: Cell Signaling"
+    }],
+    "associated": ["molecular-biology", "enzyme-activity"],
+    "associated_names": ["Molecular Biology (umbrella concept)", "Enzyme Activity"],
+    "tag": ""
+  },
+  "genome": {
+    "class": "leaf",
+    "title": "Genome",
+    "description": "The complete set of DNA, including all of its genes, in an organism or virus.",
+    "image": {"src": "", "alt": ""},
+    "links": [{
+      "url": "https://www.genome.gov/genetics-glossary/Genome",
+      "label": "Genetics Home Reference: Genome"
+    }],
+    "associated": ["genomics"],
+    "associated_names": ["Genomics"],
+    "tag": ""
+  },
+  "genetic-mapping": {
+    "class": "leaf",
+    "title": "Genetic Mapping",
+    "description": "The process of determining the location and chemical sequence of specific genes on chromosomes.",
+    "image": {"src": "", "alt": ""},
+    "links": [{
+      "url": "https://www.genome.gov/about-genomics/fact-sheets/Genetic-Map-Overview",
+      "label": "Genome.gov: Genetic Map Overview"
+    }],
+    "associated": ["genomics"],
+    "associated_names": ["Genomics"],
+    "tag": ""
+  },
+  "genomics": {
+    "class": "leaf",
+    "title": "Genomics",
+    "description": "The study of genomes, their structure, function, evolution, and mapping.",
+    "image": {"src": "https://upload.wikimedia.org/wikipedia/commons/d/dc/Omics-en.svg", "alt": ""},
+    "links": [{
+      "url": "https://www.genome.gov/genetics-glossary/Genomics",
+      "label": "Genetics Home Reference: Genomics"
+    }],
+    "associated": ["genome", "genetic-mapping"],
+    "associated_names": ["Genome", "Genetic Mapping"],
+    "tag": ""
+  },
+  "transcriptomics": {
+    "class": "leaf",
+    "title": "Transcriptomics",
+    "description": "The study of RNA transcripts produced by the genome, including their quantity and sequence under specific conditions.",
+    "image": {"src": "https://upload.wikimedia.org/wikipedia/commons/d/dc/Omics-en.svg", "alt": ""},
+    "links": [{
+      "url": "https://www.genome.gov/genetics-glossary/Transcriptome",
+      "label": "Genetics Home Reference: Transcriptome"
+    }],
+    "associated": ["genomics", "genetic-expression"],
+    "associated_names": ["Genomics", "Genetic Expression"],
+    "tag": ""
+  },
+  "proteomics": {
+    "class": "leaf",
+    "title": "Proteomics",
+    "description": "The large-scale study of proteins, their structures, functions, and interactions.",
+    "image": {"src": "https://upload.wikimedia.org/wikipedia/commons/d/dc/Omics-en.svg", "alt": ""},
+    "links": [{
+      "url": "https://www.genome.gov/genetics-glossary/Proteomics",
+      "label": "Genetics Home Reference: Proteomics"
+    }],
+    "associated": ["genomics", "transcriptomics"],
+    "associated_names": ["Genomics", "Transcriptomics"],
+    "tag": ""
+  },
+  "conservation-genetics": {
+    "class": "leaf",
+    "title": "Conservation Genetics",
+    "description": "Application of genetics to preserve species diversity and prevent extinction.",
+    "image": {"src": "", "alt": ""},
+    "links": [{
+      "url": "https://www.nature.com/subjects/conservation-genetics",
+      "label": "Nature: Conservation Genetics"
+    }],
+    "associated": ["evolution", "genetics"],
+    "associated_names": ["Evolution", "Genetics"],
+    "tag": ""
+  },
+  "synthetic-biology": {
+    "class": "leaf",
+    "title": "Synthetic Biology",
+    "description": "Engineering of organisms to design and construct new biological parts and systems.",
+    "image": {"src": "https://upload.wikimedia.org/wikipedia/commons/d/d1/Synthetic_Biology_Enabled_Microbiome_Engineering_in_Sustainable_Agriculture.jpg", "alt": ""},
+    "links": [{
+      "url": "https://www.nature.com/subjects/synthetic-biology",
+      "label": "Nature: Synthetic Biology"
+    }],
+    "associated": ["genetic-engineering", "biotechnology"],
+    "associated_names": ["Genetic Engineering", "Biotechnology"],
+    "tag": ""
+  },
+  "personalized-medicine": {
+    "class": "leaf",
+    "title": "Personalized Medicine",
+    "description": "Tailoring medical treatment based on individual genetic profiles.",
+    "image": {"src": "", "alt": ""},
+    "links": [{
+      "url": "https://www.genome.gov/health/Precision-Medicine",
+      "label": "Genetics Home Reference: Precision Medicine"
+    }],
+    "associated": ["genomics", "medical-applications"],
+    "associated_names": ["Genomics", "Medical Applications"],
+    "tag": ""
+  },
+  "microbiomes": {
+    "class": "leaf",
+    "title": "Microbiomes",
+    "description": "The collective genomes of the microorganisms living in a particular environment, such as the human gut.",
+    "image": {"src": "https://upload.wikimedia.org/wikipedia/commons/4/43/Personalized_Cancer_Therapy.png", "alt": ""},
+    "links": [{
+      "url": "https://www.genome.gov/genetics-glossary/Microbiome",
+      "label": "Genetics Home Reference: Microbiome"
+    }],
+    "associated": ["genomics", "microbiology"],
+    "associated_names": ["Genomics", "Microbiology"],
+    "tag": ""
+  },
+  "evolutionary-trees": {
+    "class": "leaf",
+    "title": "Evolutionary Trees (Phylogenetics)",
+    "description": "Diagrams showing evolutionary relationships among species based on genetic or morphological data.",
+    "image": {"src": "https://upload.wikimedia.org/wikipedia/commons/c/c4/Phylogenetic_Tree_of_Rodentia.jpg", "alt": ""},
+    "links": [{
+      "url": "https://www.nature.com/subjects/phylogenetics",
+      "label": "Nature: Phylogenetics"
+    }],
+    "associated": ["evolution"],
+    "associated_names": ["Evolution"],
+    "tag": ""
+  },
+  "medical-applications": {
+    "class": "leaf",
+    "title": "Medical Applications",
+    "description": "Use of biological knowledge and techniques in diagnosis, treatment, and prevention of diseases.",
+    "image": {"src": "", "alt": ""},
+    "links": [{
+      "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4285979/",
+      "label": "NCBI PMC: Medical Applications of Biotechnology"
+    }],
+    "associated": ["personalized-medicine", "genetic-therapy"],
+    "associated_names": ["Personalized Medicine", "Genetic Therapy"],
+    "tag": ""
+  },
+  "dna-sequencing": {
+    "class": "leaf",
+    "title": "DNA Sequencing",
+    "description": "Techniques used to determine the exact order of nucleotides in a DNA molecule.",
+    "image": {"src": "https://upload.wikimedia.org/wikipedia/commons/3/39/Duplex_sequencing_overview_alphabeta_fix.svg", "alt": ""},
+    "links": [{
+      "url": "https://www.genome.gov/genetics-glossary/DNA-Sequencing",
+      "label": "Genetics Home Reference: DNA Sequencing"
+    }],
+    "associated": ["genomics", "genetic-mapping"],
+    "associated_names": ["Genomics", "Genetic Mapping"],
+    "tag": ""
+  }
+}

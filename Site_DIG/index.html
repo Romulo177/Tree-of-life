@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="description" content="Brief description of the site." />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Lora&family=Roboto&display=swap" rel="stylesheet">
+  <title>The Tree of Life</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+    <header>
+        <h1><img src="img/hand-drawn-oak-tree-silhouette.png" alt=""> The Tree of Life</h1>
+        <nav>
+            <ul>
+                <li><a href="#introduction">Introduction</a></li>
+                <li><a href="#roots" class="root">Roots</a></li>
+                <li><a href="#trunks" class="trunk">Trunks</a></li>
+                <li><a href="#branches" class="branch">Branches</a></li>
+                <li><a href="#leaves" class="leaf">Leaves</a></li>
+            </ul>
+        </nav>
+    </header>   
+
+    <main>
+        <section id="introduction" class="introduction">
+            <h1>Introduction</h1>
+            <p>
+                This website was developed for the course <strong>T03-CVI-302 - Genetic Information Decoding</strong>,
+                taught by 
+                <a href="https://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4770481P8" target="_blank" rel="noopener">
+                    Dr. Juliana Helena Costa Smetana.
+                </a>
+            </p>
+            <p>
+                Its purpose is to organize all course topics in a didactic and structured way, using the metaphor of a tree to represent the relationships between concepts in biology and genetics.
+            </p>
+            <p>The content is divided into four conceptual levels:</p>
+            <ul>
+                <li><a href="#roots" class="root"><img class="svg" src="img/root.svg" alt="Root">Root Concepts</a> – Fundamental biological principles</li>
+                <li><a href="#trunks" class="trunk"><img class="svg" src="img/trunk.svg" alt="Trunk"> Trunk Concepts</a> – Core cellular and genetic processes</li>
+                <li><a href="#branches" class="branch"><img class="svg" src="img/branch.svg" alt="Branch"> Branch Concepts</a> – Specialized systems and mechanisms</li>
+                <li><a href="#leaves" class="leaf"><img class="svg" src="img/leaf.svg" alt="Leaf"> Leaf Concepts</a> – Applications, modern tools, and real-world impacts</li>
+            </ul>
+            <p>
+                Each concept is also tagged to indicate whether it applies to <a data-id="eukaryote" class="root_link">eukaryotic</a> cells <span class="tag eukaryote"></span>, 
+                <a data-id="prokaryote" class="root_link">prokaryotic</a> cells, or to both.
+            </p>
+        </section>
+
+
+        <section id="roots" class="root">
+            <h1><img class="svg" src="img/root.svg" alt="Root"> Root Concepts</h1>
+            <p>These are universal, basic biological principles. Everything else grows from here.</p>
+            <ul>
+                <li class="root_link" data-id="prokaryote" tabindex="0" role="button">Prokaryotes</li>
+                <li class="root_link" data-id="eukaryote" tabindex="0" role="button">Eukaryotes</li>
+                <li class="root_link" data-id="nucleic-acids" tabindex="0" role="button">Nucleic Acids</li>
+                <li class="root_link" data-id="cell-structure" tabindex="0" role="button">Cell Structure</li>
+                <li class="root_link" data-id="evolution" tabindex="0" role="button">Evolution</li>
+                <li class="root_link" data-id="central-dogma" tabindex="0" role="button">Central Dogma of Molecular Biology</li>
+            </ul>
+        </section>
+
+        <section id="trunks" class="trunk">
+            <h1><img class="svg" src="img/trunk.svg" alt="Trunk"> Trunk Concepts</h1>
+            <p>These are the fundamental processes of life. They connect basic principles to more complex biological systems.</p>
+            <ul>
+                <li class="trunk_link" data-id="genetic-expression" tabindex="0" role="button">Genetic Expression</li>
+                <li class="trunk_link" data-id="mitosis" tabindex="0" role="button">Mitosis</li>
+                <li class="trunk_link" data-id="meiosis" tabindex="0" role="button">Meiosis</li>
+                <li class="trunk_link" data-id="domains" tabindex="0" role="button">Domains</li>
+                <li class="trunk_link" data-id="embryology-development" tabindex="0" role="button">Embryology and Development</li>
+                <li class="trunk_link" data-id="cell-cycle" tabindex="0" role="button">Cell Cycle</li>
+                <li class="trunk_link" data-id="rna" tabindex="0" role="button">RNA</li>
+                <li class="trunk_link" data-id="transcription-translation" tabindex="0" role="button">Transcription and Translation</li>
+                <li class="trunk_link" data-id="dna" tabindex="0" role="button">DNA</li>
+                <li class="trunk_link" data-id="gene-regulation" tabindex="0" role="button">Gene Regulation</li>
+                <li class="trunk_link" data-id="oxidative-phosphorylation" tabindex="0" role="button">Oxidative Phosphorylation</li>
+                <li class="trunk_link" data-id="glycolysis-krebs" tabindex="0" role="button">Glycolysis and Krebs Cycle</li>
+            </ul>
+        </section>
+
+        <section id="branches" class="branch">
+            <h1><img class="svg" src="img/branch.svg" alt="Branch"> Branch Concepts</h1>
+            <p>These concepts represent specialized biological systems and pathways, growing from core processes and extending into specific domains.</p>
+            <ul>
+                <li class="branch_link" data-id="genetic-recombination" tabindex="0" role="button">Genetic Recombination</li>
+                <li class="branch_link" data-id="epigenetics" tabindex="0" role="button">Epigenetics <span class="tag eukaryote"></span></li>
+                <li class="branch_link" data-id="crispr" tabindex="0" role="button">CRISPR</li>
+                <li class="branch_link" data-id="cloning" tabindex="0" role="button">Cloning <span class="tag eukaryote"></span></li>
+                <li class="branch_link" data-id="bioinformatics" tabindex="0" role="button">Bioinformatics</li>
+                <li class="branch_link" data-id="genetic-therapy" tabindex="0" role="button">Genetic Therapy <span class="tag eukaryote"></span></li>
+                <li class="branch_link" data-id="mendelian-genetics" tabindex="0" role="button">Mendelian Genetics <span class="tag eukaryote"></span></li>
+                <li class="branch_link" data-id="mutations" tabindex="0" role="button">Mutations</li>
+                <li class="branch_link" data-id="recombinant-dna" tabindex="0" role="button">Recombinant DNA Technology</li>
+                <li class="branch_link" data-id="molecular-biology" tabindex="0" role="button">Molecular Biology (umbrella concept)</li>
+                <li class="branch_link" data-id="enzyme-activity" tabindex="0" role="button">Enzyme Activity</li>
+                <li class="branch_link" data-id="cellular-signaling" tabindex="0" role="button">Cellular Signaling <span class="tag eukaryote"></span></li>
+            </ul>
+        </section>
+
+        <section id="leaves" class="leaf">
+            <h1><img class="svg" src="img/leaf.svg" alt="Leaf"> Leaf Concepts</h1>
+            <p>These are the most detailed and applied concepts. They represent the outer expression of biological knowledge in specific contexts.</p>
+            <ul>
+                <li class="leaf_link" data-id="genome" tabindex="0" role="button">Genome</li>
+                <li class="leaf_link" data-id="genetic-mapping" tabindex="0" role="button">Genetic Mapping</li>
+                <li class="leaf_link" data-id="genomics" tabindex="0" role="button">Genomics</li>
+                <li class="leaf_link" data-id="transcriptomics" tabindex="0" role="button">Transcriptomics</li>
+                <li class="leaf_link" data-id="proteomics" tabindex="0" role="button">Proteomics</li>
+                <li class="leaf_link" data-id="conservation-genetics" tabindex="0" role="button">Conservation Genetics <span class="tag eukaryote"></span></li>
+                <li class="leaf_link" data-id="synthetic-biology" tabindex="0" role="button">Synthetic Biology</li>
+                <li class="leaf_link" data-id="personalized-medicine" tabindex="0" role="button">Personalized Medicine <span class="tag eukaryote"></span></li>
+                <li class="leaf_link" data-id="microbiomes" tabindex="0" role="button">Microbiomes</li>
+                <li class="leaf_link" data-id="evolutionary-trees" tabindex="0" role="button">Evolutionary Trees (Phylogenetics)</li>
+                <li class="leaf_link" data-id="medical-applications" tabindex="0" role="button">Medical Applications <span class="tag eukaryote"></span></li>
+                <li class="leaf_link" data-id="dna-sequencing" tabindex="0" role="button">DNA Sequencing</li>
+            </ul>
+        </section>
+    </main>
+  <footer>
+    <p>&copy; 2024 Rômulo. All rights reserved.</p>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

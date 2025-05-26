@@ -1,0 +1,355 @@
+/* -------- CSS Reset -------- */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --color-root: #8b4513;         /* .root - marrom escuro */
+  --color-trunk: #9f512d;        /* .trunk - cinza escuro */
+  --color-branch: #ce8740;       /* .branch - bege claro */
+  --color-leaf: #2e8a56;         /* .leaf - verde médio */
+  --color-accent: #f0e78e;       /* .accent - amarelo dourado */
+  --color-background: #f1f0eb;   /* .background - off-white */
+  --color-text-default: #333333; /* .text-default - cinza escuro */
+}
+
+
+/* -------- Base Elements -------- */
+html, body {
+  font-family: system-ui, sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+  background-color: var(--color-background);
+  color: #333;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+a {
+  color: #9ca6b0;
+  text-decoration: none;
+  display: inline-block;
+  height: 1rem;  
+  line-height: 1rem;
+}
+
+a:hover {
+  text-decoration: underline;
+  transition: 0.1s;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+.svg{
+  height: 150%;
+  display: inline-block;
+}
+
+
+/* -------- Layout -------- */
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: var(--color-background);
+}
+
+header, footer {
+  background-color: #2E7D32;
+  color: #fff;
+  padding: 1rem;
+  text-align: center;
+  border-bottom: 2px solid #333;
+}
+header img{
+  width: 50px;
+  height: 50px;
+  vertical-align: middle;  
+  display: inline-block;    /* ensures it aligns correctly */
+}
+header a{
+  text-shadow: 0.5px 0.5px #333; 
+}
+
+main {
+  flex: 1;
+  padding: 2rem;
+}
+
+section {
+  margin-bottom: 2rem;
+  background-color: #f1f0eb;
+  padding: 1.5rem;
+  border-radius: 8px;
+  border: 0.5px solid #333;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+}
+
+ul, ol {
+  font-weight: bold;
+  list-style: circle;
+  padding-left: 0; /* opcional, remove o recuo padrão */
+}
+
+/* -------- Navigation -------- */
+nav{
+  background-color: #2E7D32;
+  padding: 0.5em;
+}
+
+nav ul {
+  color:#fff ;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  list-style: none;
+  padding: 0;
+}
+nav a{
+  color:#fff ;
+}
+
+/* -------- Responsive Typography -------- */
+h1 {
+  font-weight: bold;
+  height: 1rem;
+  display: inline-block;
+  font-size: 2rem;
+  margin-bottom: 0.7rem;
+  font-family: 'Playfair Display', serif;
+}
+
+h2 {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+  font-family: 'Lora', serif;
+}
+
+p {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  font-family: 'Roboto', sans-serif;
+}
+
+/* --------- Concepts sections ---- */
+.root{
+    color: var(--color-root);
+}
+.trunk{
+  color: var(--color-trunk);
+}
+.branch{
+  color: var(--color-branch);
+}
+.leaf{
+  color: var(--color-leaf);
+}
+.root_link{
+    font-weight: bold;
+    color: var(--color-root);
+}
+.root_link:hover{
+  text-decoration: underline;
+  transition: 0.1s;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+.trunk_link{
+  font-weight: bold;
+  color: var(--color-trunk);
+}
+.trunk_link:hover{
+  text-decoration: underline;
+  transition: 0.1s;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+.branch_link{
+  font-weight: bold;
+  color: var(--color-branch);
+}
+.branch_link:hover{
+  text-decoration: underline;
+  transition: 0.1s;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+.leaf_link{
+  color: var(--color-leaf);
+  font-weight: bold;
+}
+.leaf_link:hover{
+  text-decoration: underline;
+  transition: 0.1s;
+  font-size: 1.2rem;
+  cursor: pointer;
+}.offcanvas {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.6);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Container do card (frente + verso) */
+.card_wrapper {
+  position: relative;
+  width: 90vw;
+  height: 90vh;
+  border-radius: 16px;
+  box-shadow: 0 4px 20px rgba(192, 190, 190, 0.3);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  box-sizing: border-box;
+  background-color: #333;
+  padding: 1.5em;
+}
+
+/* Frente e verso dos cards */
+.card_front,
+.card_back {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  padding: 1.5em;
+  color: #fff;
+  border-radius: 16px;
+  box-sizing: border-box;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.root_card {
+  background-color: #555;
+  background-image: url("img/root.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.trunk_card {
+  background-color: #555;
+  background-image: url("img/trunk.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.branch_card {
+  background-color: #555;
+  background-image: url("img/branch.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.leaf_card {
+  background-color: #555;
+  background-image: url("img/leaf.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+
+/* Título */
+.card_front h1,
+.card_back h1 {
+  font-weight: 1000;
+  text-transform: capitalize;
+  font-size: 2rem;
+  margin: 0.2em 0;
+}
+
+/* Parágrafos */
+.card_front p,
+.card_back p {
+  margin: 0.5em 0 0.2em;
+  font-size: 1em;
+  text-align: center;
+}
+
+/* Links */
+.card_front a,
+.card_back a {
+  color: #88c0d0;
+  text-decoration: none;
+  font-size: 0.95em;
+  text-align: center;
+}
+
+.card_front a:hover,
+.card_back a:hover {
+  color: #a3e1ff;
+}
+
+/* Imagem */
+.card_back .image_wrapper {
+  background: #fff;
+  padding: 0.5em;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-height: 42vh;
+}
+
+.card_back .image_wrapper img {
+  max-height: 40vh;
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* Botão de fechar */
+.close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  width: 40px;
+  height: 40px;
+  background: url('img/close.svg') no-repeat center/contain;
+  border: none;
+  cursor: pointer;
+}
+
+/* Botão de virar */
+.flip {
+  position: absolute;
+  top: 10px;
+  right: 60px;
+  width: 40px;
+  height: 40px;
+  background: url('img/flip.svg') no-repeat center/contain;
+  border: none;
+  cursor: pointer;
+}
+
+/* Tag (ícone no canto inferior) */
+.tag {
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+  width: 40px;
+}
+
+/* Esconde elemento */
+.hidden {
+  display: none;
+}
